@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Bukit List</title>
+    <script src="/js/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <h1>Bucket List!</h1>
+
+<div class="wrapper">
+      <h2>Add an item</h2>
+      <form id="bucket-list-form">
+
+        <label for="title">Title:</label>
+        <input type="text" id="title"/></br>
+
+        <label for="category">Category:</label>
+        <input type="text" id="category"/></br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date"/></br>
+
+        <label for="cost"></label>
+
+
+
+        <label for="cost">Cost:</label></br>
+        <div class="radio">
+          <input type="radio" name="cost" value="£" id="£" checked/>
+          <label for="£">£</label></br>
+
+          <input type="radio" name="cost" value="££" id="££"/>
+          <label for="££">££</label></br>
+
+          <input type="radio" name="cost" value="£££" id="£££"/>
+          <label for="£££">£££</label></br>
+
+          <input type="radio" name="cost" value="££££" id="££££"/>
+          <label for="££££">££££</label></br>
+
+          <input type="radio" name="cost" value="£££££" id="£££££"/>
+          <label for="£££££">£££££</label></br>
+
+        </div>
+
+          <!-- <label for="completed">Select box if item is completed</label> -->
+          <!-- <input type="checkbox" id="completed" name="completed"
+              value="true" /> -->
+
+        <input type="submit" value="Save" id="save">
+
+      </form>
+
+        <div>
+          <h2>List Items</h2>
+          <div id="list-items"></div>
+        </div>
+
+
+    <!-- DROPDOWN (SELECT VIEW), FORM(title, category, goal_date, cost, complete?), GRID DISPLAY,  -->
+
+
+
+
+
+
+
+  </div>
+  </body>
+</html>
